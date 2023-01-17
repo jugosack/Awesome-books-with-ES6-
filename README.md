@@ -174,7 +174,7 @@ If you like this project and would like to support, contact me.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse, [Cindy Shin](https://www.behance.net/adagio07) for this perfect design, my coding partners and the whole developer body in Microverse for helping me get this far.
+I would like to thank Microverse for this perfect design, my coding partners and the whole developer body in Microverse for helping me get this far.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
