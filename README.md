@@ -178,11 +178,21 @@ I would like to thank Microverse for this perfect design, my coding partners and
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## ❓ FAQ <a name="faq"></a>
+
+- **[When will new features will be available?]**
+
+  - [In the first quarter of 2023]
+
+- **[When will you fix bugs?]**
+
+  - [When we find the way]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/legalcode) licensed.
+This project is [MIT](./LICENSE) licensed.
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
