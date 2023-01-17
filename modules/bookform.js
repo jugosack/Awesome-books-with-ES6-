@@ -12,10 +12,5 @@ bookForm.addEventListener('submit', (e) => {
   const book = new ShowBooks();
   book.displayBook({ title, author });
   book.addBook({ title, author });
-
-  // book.addEventListener(listHandler);
-
-  // title.value = '';
-  // author.value = '';
   bookForm.reset();
 });
