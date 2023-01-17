@@ -2,7 +2,7 @@
 /* eslint-disable max-classes-per-file */
 import './modules/date.js';
 import './modules/view.js';
-//import './modules/bookForm.js';
+
 
 class Book {
     constructor(title, author) {
@@ -76,12 +76,16 @@ class Book {
     const book = new ShowBooks();
     book.displayBook({ title, author });
     book.addBook({ title, author });
-  
-    title.value = '';
-    author.value = '';
+    
+    //book.addEventListener(listHandler);
+    
+   // title.value = '';
+   // author.value = '';
+    bookForm.reset();
+   
   });
   
- 
+ //Show Books on the first load
   const toDisplay = new ShowBooks();
   toDisplay.iterateBooks();
   
@@ -128,7 +132,8 @@ class Book {
     addBookSection.style.display = 'none';
     contactSection.style.display = 'block';
   }
-  
+   
+
   listLink.addEventListener('click', listHandler);
   addBookLink.addEventListener('click', addBookHandler);
   contactLink.addEventListener('click', contactHandler);
@@ -136,3 +141,4 @@ class Book {
   contactSection.style.display = 'none';
   addBookSection.style.display = 'none';
   */
+ 
