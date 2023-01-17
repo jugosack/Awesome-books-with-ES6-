@@ -6,7 +6,7 @@ const contactSection = document.getElementById('contact-section');
 const addBookSection = document.getElementById('form-books');
 const booksSection = document.getElementById('books-added');
 
-export const listHandler = (event)=> {
+export const listHandler = (event) => {
   event.preventDefault();
   listLink.style.color = 'white';
   addBookLink.style.color = '#D6D6D6';
@@ -14,9 +14,9 @@ export const listHandler = (event)=> {
   booksSection.style.display = 'block';
   addBookSection.style.display = 'none';
   contactSection.style.display = 'none';
-}
+};
 
-export const addBookHandler=(event) =>{
+export const addBookHandler = (event) => {
   event.preventDefault();
   listLink.style.color = '#D6D6D6';
   addBookLink.style.color = 'white';
@@ -24,9 +24,9 @@ export const addBookHandler=(event) =>{
   booksSection.style.display = 'none';
   addBookSection.style.display = 'flex';
   contactSection.style.display = 'none';
-}
+};
 
-export const contactHandler= (event) =>{
+export const contactHandler = (event) => {
   event.preventDefault();
   listLink.style.color = '#D6D6D6';
   addBookLink.style.color = '#D6D6D6';
@@ -34,7 +34,7 @@ export const contactHandler= (event) =>{
   booksSection.style.display = 'none';
   addBookSection.style.display = 'none';
   contactSection.style.display = 'block';
-}
+};
 
 listLink.addEventListener('click', listHandler);
 addBookLink.addEventListener('click', addBookHandler);
