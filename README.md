@@ -34,12 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Conference Page <a name="about-project"></a>
-
-**Conference page** is the first Microverse Capstone at the end of Module 1
 
 ## Video Description <a name="vid-desc">
-[Loom video describing project](https://www.loom.com/share/69349eb9e8de4197988d23b173c3f82b)
+[Loom video describing project](#)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,7 +72,7 @@ HTML, CSS and JavaScript
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://jugosack.github.io/Awesome-books-with-ES6-/)
+- [Live Demo Link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
