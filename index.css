@@ -1,77 +1,76 @@
 @media (min-width: 375px) {
-    .page-title,
-    .page-subtitle,
-    #books {
-      text-align: center;
-    }
-  
-    #books-added {
-      width: 100%;
-      margin: 5rem auto auto auto;
-    }
-  
-    #books-container {
-      border: 2px solid #000;
-    }
-  
-    #form-books {
-      padding: 0;
-      margin: auto;
-      margin-top: 200px !important;
-      flex-direction: column;
-    }
-  
-    .book-card {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      margin: 0.5rem 1rem;
-    }
-  
-    #books {
-      display: flex;
-      flex-direction: column;
-      margin: auto;
-      gap: 0.5rem;
-      width: 60%;
-    }
-  
-    #books input {
-      width: 100%;
-    }
-  
-    #books button {
-      float: right;
-    }
-  
-    #contact-section {
-      margin: auto;
-      margin-top: 200px !important;
-      margin-bottom: 8rem !important;
-    }
+  .page-title,
+  .page-subtitle,
+  #books {
+    text-align: center;
   }
-  
-  @media (min-width: 768px) {
-    #books-added {
-      width: 80%;
-    }
-  
-    #form-books {
-      width: 80%;
-      margin-top: 200px !important;
-      flex-direction: column;
-    }
-  
-    #contact-section {
-      margin-top: 200px !important;
-    }
-  
-    .book-card {
-      margin: 1rem 2rem;
-    }
-  
-    #books input {
-      margin: 1rem auto;
-    }
+
+  #books-added {
+    width: 100%;
+    margin: 5rem auto auto auto;
   }
-  
+
+  #books-container {
+    border: 2px solid #000;
+  }
+
+  #form-books {
+    padding: 0;
+    margin: auto;
+    margin-top: 200px !important;
+    flex-direction: column;
+  }
+
+  .book-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5rem 1rem;
+  }
+
+  #books {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 0.5rem;
+    width: 60%;
+  }
+
+  #books input {
+    width: 100%;
+  }
+
+  #books button {
+    float: right;
+  }
+
+  #contact-section {
+    margin: auto;
+    margin-top: 200px !important;
+    margin-bottom: 8rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #books-added {
+    width: 80%;
+  }
+
+  #form-books {
+    width: 80%;
+    margin-top: 200px !important;
+    flex-direction: column;
+  }
+
+  #contact-section {
+    margin-top: 200px !important;
+  }
+
+  .book-card {
+    margin: 1rem 2rem;
+  }
+
+  #books input {
+    margin: 1rem auto;
+  }
+}
