@@ -6,7 +6,7 @@ const contactSection = document.getElementById('contact-section');
 const addBookSection = document.getElementById('form-books');
 const booksSection = document.getElementById('books-added');
 
-function listHandler(event) {
+listHandler= (event)=> {
   event.preventDefault();
   listLink.style.color = 'white';
   addBookLink.style.color = '#D6D6D6';
@@ -16,7 +16,7 @@ function listHandler(event) {
   contactSection.style.display = 'none';
 }
 
-function addBookHandler(event) {
+addBookHandler = (event)=> {
   event.preventDefault();
   listLink.style.color = '#D6D6D6';
   addBookLink.style.color = 'white';
@@ -26,7 +26,7 @@ function addBookHandler(event) {
   contactSection.style.display = 'none';
 }
 
-function contactHandler(event) {
+contactHandler = (event)=> {
   event.preventDefault();
   listLink.style.color = '#D6D6D6';
   addBookLink.style.color = '#D6D6D6';
