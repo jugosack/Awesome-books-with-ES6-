@@ -1,4 +1,5 @@
-import ShowBooks from './showbook.js';
+import ShowBooks from '../index.js';
+
 
 const bookForm = document.getElementById('books');
 bookForm.addEventListener('submit', (e) => {
