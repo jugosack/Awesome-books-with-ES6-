@@ -35,9 +35,6 @@
 <!-- PROJECT DESCRIPTION -->
 
 
-## Video Description <a name="vid-desc">
-[Loom video describing project](#)
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -118,14 +115,6 @@ Install this project with:
 ### Usage
 
 To run the project, kindly open index.html with your browser or run live server on VS Code:
-
-
-### Deployment <a name="deployment"></a>
-
-You can deploy this project with [GitHub Pages](https://pages.github.com/):
-
-
-<p align="right"><a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHOR -->
 
