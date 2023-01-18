@@ -1,6 +1,3 @@
-/* eslint-disable class-methods-use-this */
-/* eslint-disable max-classes-per-file */
-//eslint-disable import/no-cycle
 import './modules/date.js';
 import './modules/view.js';
 import ShowBooks from './modules/showbook.js';
