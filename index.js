@@ -2,7 +2,6 @@ import './modules/date.js';
 import './modules/view.js';
 import ShowBooks from './modules/showbook.js';
 
-
 const bookForm = document.getElementById('books');
 bookForm.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -15,12 +14,10 @@ bookForm.addEventListener('submit', (e) => {
   }
   const book = new ShowBooks();
   book.displayBook({ title: title.value, author: author.value });
-  book.addBook({ title:title.value, author: author.value });
+  book.addBook({ title: title.value, author: author.value });
   bookForm.reset();
 });
 
-
-    // Show Books on the first load
-    export const toDisplay = new ShowBooks();
-    toDisplay.iterateBooks();
-
+// Show Books on the first load
+const toDisplay = new ShowBooks();
+toDisplay.iterateBooks();
