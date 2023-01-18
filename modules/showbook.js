@@ -25,7 +25,6 @@ export default class ShowBooks extends Book {
   iterateBooks() {
     this.books = JSON.parse(localStorage.getItem('data-books'));
     if (this.books?.length === 0 || !this.books) {
-      
       return;
     }
     this.books?.map((book) => this.displayBook(book));
